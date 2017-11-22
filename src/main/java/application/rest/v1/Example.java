@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class Example{
 	@GET
 	public String greet() throws Exception {
-		return "Hello from " + java.net.InetAddress.getLocalHost().getHostName();
+		return "Hello user from " + java.net.InetAddress.getLocalHost().getHostName();
 	}
 }
 
